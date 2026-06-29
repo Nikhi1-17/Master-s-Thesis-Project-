@@ -71,7 +71,7 @@ function results = run_pipeline_v2(csvfile, outfile, rows, save_figs)
         rest = step1_resting_sim_v2(pp, cfg);
         kick = step2_choose_c_and_kick_v2(rest, cfg);
         pert = step3_run_perturbation_v2(rest, kick, pp, cfg);
-        step5_plot_v2(rest, pert, cfg, pp, row, save_figs);
+        step4_plot_v2(rest, pert, cfg, pp, row, save_figs);
 
         % ---- collect metrics ----
         % step3 returns a VECTOR of 24 per-realization settle times
