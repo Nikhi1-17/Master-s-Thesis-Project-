@@ -1,4 +1,4 @@
-function fig = step5_plot_v2(rest, pert, cfg, pp, row, save_fig)
+function fig = step4_plot_v2(rest, pert, cfg, pp, row, save_fig)
 % STEP5_PLOT_V2  Two-panel figure per patient.
 %
 %   Panel 1 (BEFORE): full 40 s resting rho(t).
